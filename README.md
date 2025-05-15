@@ -6,6 +6,16 @@ This Power BI dashboard analyzes mobile phone sales across different countries, 
 
 The goal of this project was to uncover insights from mobile phone transaction data and visualize trends in product performance, customer behavior, and revenue distribution.
 
+## Data Preparation & Cleaning Steps:
+- Converted `Transaction_Date` to proper date format
+- Extracted `End of Month` for time-based trend analysis
+- Standardized categorical fields (e.g., Brand, Gender, Payment Type)
+- Removed null or duplicate entries where applicable
+- Created calculated columns and DAX measures for revenue, ranking, and performance metrics
+
+## Dataset
+Dataset was a Csv file thanks to Onyx Data for the May Data Dna Challenge 
+
 ## 📊 Key Insights
 
 - **Apple** leads in **revenue**, while **OnePlus** sells the most **units** overall.
@@ -26,12 +36,15 @@ The goal of this project was to uncover insights from mobile phone transaction d
 - Data modeling and transformation in Power Query
 
 ##  Dashboard Preview
- [Screenshot (42)](https://github.com/user-attachments/assets/9c7add94-c902-4e2c-aa28-e45f6e6b0ed4)
+ ![Mobile_Sales_Dashboard](https://github.com/user-attachments/assets/4eb70fd6-13e2-4eb1-abea-a2b3ac7c121c)
+
 
 
 ## 📁 Files Included
 
-- `Mobile sales.pbix` – Power BI report file
+- `mobilesales.pbix` – Power BI report file
+- `Mobile Sales_Executive summary.pdf` - Summary and Key Insights
+- `Mobile_Data_Report.pdf` - Visuals Report
   
 
 ## 🙏 Acknowledgments
